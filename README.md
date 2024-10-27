@@ -32,7 +32,11 @@ Senha Padrão depende do seu sistema sugiro usar:
 
 > sudo ufw allow 3050/tcp
 
-6- Reiniciar Firebird para aplicar mudanças e conectar bando ao ISQL:
+6- Liberando o banco.FDB para utilização, dentro da Pasta do Sistema:
+
+> chmod 666 DADOS5.FDB
+
+7- Reiniciar Firebird para aplicar mudanças e conectar bando ao ISQL:
 
 > sudo /opt/firebird/bin/fbmgr.bin -restart
 
@@ -41,7 +45,6 @@ Senha Padrão depende do seu sistema sugiro usar:
 > CONNECT "banco.FDB" user 'SYSDBA' password 'masterkey';
 
 > exit;
-
 
 # ------------------------------
 # List of known database aliases
