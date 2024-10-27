@@ -50,8 +50,11 @@ Senha Padrão depende do seu sistema sugiro usar:
 # List of known database aliases
 # ------------------------------
 # Windows
-# banco.FDB on localhost = C:\Pasta Sistema\banco.FDB
+
+> banco.FDB on localhost = C:\Pasta Sistema\banco.FDB
+
 # Linux
-# banco.FDB on localhost = /Pasta Sistema/banco.FDB
+
+> banco.FDB on localhost = /Pasta Sistema/banco.FDB
 
 Créditos: https://blog.unagui.info/como-instalar-firebird-2-5-no-debian-buster/
