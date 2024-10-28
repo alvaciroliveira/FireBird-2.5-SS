@@ -34,7 +34,7 @@ Senha Padrão depende do seu sistema sugiro usar:
 
 6- Liberando o banco.FDB para utilização, dentro da Pasta do Sistema:
 
-> chmod 666 DADOS5.FDB
+> chmod 666 banco.FDB
 
 7- Reiniciar Firebird para aplicar mudanças e conectar bando ao ISQL:
 
